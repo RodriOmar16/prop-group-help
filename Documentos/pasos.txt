@@ -1,0 +1,6 @@
+pasos a seguir:
+1) click derecho en la carpeta con todos los archivos
+2) click en la opción git bash here
+3) introducir a la consola que aparece el comando: git add .
+4) introducir el comando: git commit m "Mensaje que diga lo que se cambio"
+5) sincronizar con el repositorio de github: git push -u origin master
