@@ -5,7 +5,7 @@
 }
 
 
-#nav1 li{
+#nav1 .nav-elem{
 	margin-right: 13px;
 	margin-left: 13px;
 }
@@ -57,7 +57,7 @@ ul, ol{
 
 .dropdown-menu{
 	background-color: white;
-	border:1px solid #126C00;
+	/*border:1px solid #126C00;*/
 }
 
 .dropdown-item{
@@ -141,7 +141,7 @@ ul, ol{
 }
 
 .columna-contenedor{
-	margin: 5px;
+	margin: 5px 5px 5px 6%;
 	height: 90%;
 	display: flex;
   flex-direction: column;
@@ -548,11 +548,11 @@ p{
 		width: 60%;
 	}
 	.contenedor-categoria{
-		padding:20px 0px;
+		padding:20px 10px;
 	}
-	.contenedor-grid{
+	/*.contenedor-grid{
 		justify-items: center;
-	}
+	}*/
 	.contenedor-about h2 {
 		font-size: 30px;
 	}
