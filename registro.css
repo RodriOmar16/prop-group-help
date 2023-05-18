@@ -4,6 +4,7 @@
 }
 .img-registro{
   margin-top: 50px;
+  height: 100px;
 }
 .contenedor-registro{
   margin: auto;
@@ -18,9 +19,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 90%;
+  max-width: 550px;
   height: 500px;
-  margin: 5px;
+  margin: 15px 0px;
+  box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.15);
 }
 
 h4{
@@ -33,11 +36,20 @@ h4{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:;
+  align-items:center;
   width: 90%;
+  max-width: 500px;
   height: 350px;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 0.8px solid #A1A1A1 ;
+  border-bottom: 0.8px solid #A1A1A1 ;
+}
+
+input{
+  outline: none;
+}
+
+.contenedor-input{
+  margin-top: 12px;
 }
 
 .formulario input{
@@ -45,12 +57,14 @@ h4{
   padding: 10px;
   font-size: 18px;
   margin: 5px 0px;
-  border: 1.5px solid green;
+  border: 1.5px solid gray;
   border-radius: 5px;
+}
+input:focus{
+  border-color: green;
 }
 
 .contenedor-boton{
-  background-color: green;
   height: 50px;
   width: 100%;
   margin: 10px 0px;
@@ -63,10 +77,22 @@ h4{
 .boton-formulario{
   width: 100%;
   padding: 10px;
-  font-size: 15px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  background-color: green;
 }
 
 p{
-  margin: 20px 0px;
+  margin: 25px 0px;
   font-size: 15px;
+}
+
+
+/*Media Queries*/
+@media (max-width:500px){
+  .img-registro{
+    height: 85px;
+  }
 }
