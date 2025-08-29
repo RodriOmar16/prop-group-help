@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Iniciar sesión | Pro Group Help</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../imagenes/fav-icon.jpg">
+    <!-- CSS -->
+    <link href="../css/login.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="contenedor-login">
+    <a href="../html/index.html"><img class="img-login" src="../imagenes/LogoRecortada.jpg" alt="Logo Prop Group Help"/></a>
+    <div class="contenedor-formulario">
+      <h4>Inicio de sesión</h4>
+      <form class="formulario" action="../php/script.php" method="POST">
+        <div class="contenedor-input">
+          <input type="email" name="email-cliente" id="email-cliente" placeholder="Correo Electrónico" required>
+          <input type="text" name="pass-cliente" id="pass-cliente" placeholder="Contraseña" required>
+        </div>
+        <div class="contenedor-boton">
+          <button class="boton-formulario" type="submit">Iniciar sesión</button>
+        </div>
+      </form>
+      <p>
+        ¿Aún no tienes una cuenta? <a href="../html/registro.html">Ingresa aquí</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
